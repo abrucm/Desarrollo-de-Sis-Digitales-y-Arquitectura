@@ -1,4 +1,4 @@
-void setup() //establece algunos criterios que requieren una ejecución única
+void setup() //establece criterios que requieren una ejecución única
 {
   pinMode(7, INPUT); //configura el pin 7 para que se comporte como entrada
   pinMode(2, OUTPUT); //configura el pin 2 para que se comporte como salida
