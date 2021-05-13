@@ -1,6 +1,6 @@
 int temperatura = 0; //defino la variable temperatura y la inicio en 0
 
-void setup() //establece algunos criterios que requieren una ejecución única
+void setup() //establece criterios que requieren una ejecución única
 {
   pinMode(A0, INPUT); //configura el pin A0 para que se comporte como entrada
   pinMode(8, OUTPUT); //configura el pin 8 para que se comporte como salida
