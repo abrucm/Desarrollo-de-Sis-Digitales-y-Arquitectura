@@ -6,7 +6,7 @@
 #define AMARILLO 9 //define el valor "AMARILLO" al pin 9
 #define ROJO 10 //define el valor "ROJO" al pin 10
 
-void setup() //establece algunos criterios que requieren una ejecución única
+void setup() //establece criterios que requieren una ejecución única
 {
   pinMode(5, OUTPUT); //configura el pin 5 para que se comporte como salida
   pinMode(6, OUTPUT); //configura el pin 6 para que se comporte como salida
