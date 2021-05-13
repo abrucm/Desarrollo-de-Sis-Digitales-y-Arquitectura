@@ -14,7 +14,7 @@ long readUltrasonicDistance(int triggerPin, int echoPin) //almacena el entero tr
   return pulseIn(echoPin, HIGH); //espera a que se encienda el echoPin y devuelve ese valor
 }
 
-void setup() //establece algunos criterios que requieren una ejecución única
+void setup() //establece criterios que requieren una ejecución única
 {
   Serial.begin(9600); //abre el puerto serie, establece la velocidad de datos en 9600 bps
   pinMode(5, OUTPUT); //configura el pin 5 para que se comporte como salida
